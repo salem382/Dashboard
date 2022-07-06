@@ -1,0 +1,12 @@
+.new {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.new .right-part {
+  -webkit-box-flex: 6;
+      -ms-flex: 6;
+          flex: 6;
+}
+/*# sourceMappingURL=New.css.map */

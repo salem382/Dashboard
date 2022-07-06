@@ -1,0 +1,100 @@
+.navbar {
+  border-bottom: 1px solid #ccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px;
+  -webkit-box-flex: 6;
+      -ms-flex: 6;
+          flex: 6;
+}
+
+.navbar .left-part {
+  position: relative;
+  width: 30%;
+  padding-left: 20px;
+}
+
+.navbar .left-part input {
+  border: 1px solid #ccc;
+  padding: 5px;
+  outline: none;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.navbar .left-part input::-webkit-input-placeholder {
+  color: #ccc;
+}
+
+.navbar .left-part input:-ms-input-placeholder {
+  color: #ccc;
+}
+
+.navbar .left-part input::-ms-input-placeholder {
+  color: #ccc;
+}
+
+.navbar .left-part input::placeholder {
+  color: #ccc;
+}
+
+.navbar .left-part .icon {
+  position: absolute;
+  right: 130px;
+  top: 20px;
+  color: #ccc;
+}
+
+.navbar .right-part {
+  width: 70%;
+}
+
+.navbar .right-part ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50%;
+  margin-left: auto;
+  color: #666;
+}
+
+.navbar .right-part ul .icon {
+  font-size: 20px;
+}
+
+.navbar .right-part ul .bright-ness {
+  cursor: pointer;
+}
+
+.navbar .right-part ul .alarm {
+  position: relative;
+}
+
+.navbar .right-part ul .alarm span {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #f00;
+  color: #fff;
+  text-align: center;
+  line-height: 15px;
+  font-size: 14px;
+  right: -7px;
+  top: -5px;
+}
+
+.navbar .right-part ul img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=Navbar.css.map */

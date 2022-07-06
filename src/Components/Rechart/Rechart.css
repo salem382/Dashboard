@@ -1,0 +1,14 @@
+.rechart {
+  width: 60%;
+  -webkit-box-shadow: var(--lightShadow);
+          box-shadow: var(--lightShadow);
+  padding: 10px;
+}
+
+.rechart h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+  color: #777;
+}
+/*# sourceMappingURL=Rechart.css.map */

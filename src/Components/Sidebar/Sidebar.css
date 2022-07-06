@@ -1,0 +1,92 @@
+.sidebar {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border: 1px solid #ccc;
+  height: 130vh;
+}
+
+.sidebar .lk {
+  color: var(--Black);
+}
+
+.sidebar .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 59px;
+  line-height: 60px;
+  border-bottom: 1px solid #ccc;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.sidebar .link .lk {
+  color: var(--mainColor);
+}
+
+.sidebar ul {
+  font-size: 14px;
+}
+
+.sidebar ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 20px;
+  line-height: 1.7;
+  cursor: pointer;
+}
+
+.sidebar ul li span {
+  margin-right: 10px;
+  color: var(--mainColor);
+}
+
+.sidebar ul li span .icon {
+  font-size: 20px;
+}
+
+.sidebar ul li:not(.head) {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.sidebar ul li:not(.head):hover {
+  background: rgba(100, 57, 255, 0.1);
+}
+
+.sidebar ul .head {
+  margin-left: -5px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: auto;
+}
+
+.sidebar .mode {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px;
+}
+
+.sidebar .mode div {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid var(--mainColor);
+  margin: 5px;
+  cursor: pointer;
+}
+
+.sidebar .mode div:last-of-type {
+  background-color: var(--darkColor);
+}
+/*# sourceMappingURL=Sidebar.css.map */

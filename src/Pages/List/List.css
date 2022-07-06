@@ -1,0 +1,38 @@
+.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.list .righ-part {
+  -webkit-box-flex: 6;
+      -ms-flex: 6;
+          flex: 6;
+}
+
+.list .righ-part .new_head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+
+.list .righ-part .new_head p {
+  font-size: 26px;
+  font-weight: 500;
+  color: #777;
+  margin: 0;
+}
+
+.list .righ-part .new_head .add_btn {
+  border: 1px solid #0b0;
+  border-radius: 7px;
+  padding: 7px 12px;
+}
+/*# sourceMappingURL=List.css.map */

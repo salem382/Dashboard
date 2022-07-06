@@ -1,0 +1,57 @@
+.view {
+    display: flex;
+    .right-part {
+        flex: 6;
+        .view-revenu {
+            padding: 40px;
+            display: flex;
+            justify-content: space-between;
+            .info {
+                width: 37%;
+                padding: 20px;
+                box-shadow: var(--lightShadow);
+                .top-part {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    p {
+                        color: #777;
+                    }
+                    div {
+                        color: var(--mainColor);
+                        background: rgba(#6439ff, 0.4);
+                    }
+                }
+                .person-info {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 30px;
+                    img {
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 50%;
+                    }
+                    ul {
+                        padding: 0;
+                        margin: 0;
+                        width: 200px;
+                        line-height: 2;
+                        h3 {
+                            margin: 0;
+                        }
+                        li {
+                            color: #777;
+                            font-size: 15px;
+
+                            span {
+                                color: #555;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}

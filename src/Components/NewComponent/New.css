@@ -1,0 +1,96 @@
+.New-component {
+  padding: 20px;
+}
+
+.New-component .top {
+  font-size: 24px;
+  color: #666;
+  -webkit-box-shadow: 4px 4px 7px rgba(201, 201, 201, 0.47);
+          box-shadow: 4px 4px 7px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+}
+
+.New-component .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 70px;
+}
+
+.New-component .bottom .image-container {
+  width: 40%;
+}
+
+.New-component .bottom .image-container img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.New-component .bottom form {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.New-component .bottom form .send-image {
+  text-align: left;
+  position: relative;
+  width: 40%;
+}
+
+.New-component .bottom form .send-image label {
+  cursor: pointer;
+}
+
+.New-component .bottom form .send-image input {
+  position: absolute;
+  top: 0;
+  z-index: 9;
+  left: 0;
+  opacity: 0;
+}
+
+.New-component .bottom form .send-image .icon {
+  position: absolute;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.New-component .bottom form div:not(:first-of-type) {
+  width: 40%;
+}
+
+.New-component .bottom form div:not(:first-of-type) label {
+  display: block;
+}
+
+.New-component .bottom form div:not(:first-of-type) input {
+  border: none;
+  border-bottom: 1px solid #000;
+  margin: 15px 0;
+}
+
+.New-component .send-btn {
+  width: 100px;
+  height: 40px;
+  background-color: teal;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  margin-left: 640px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=New.css.map */

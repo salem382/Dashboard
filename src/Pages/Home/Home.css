@@ -1,0 +1,29 @@
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home .left-part {
+  -webkit-box-flex: 6;
+      -ms-flex: 6;
+          flex: 6;
+}
+
+.home .left-part .widgets, .home .left-part .Revenus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.home .left-part .Revenus {
+  margin-top: 30px;
+}
+
+.home .left-part .Revenus .Reshart {
+  width: 60%;
+  border: 1px solid #f00;
+}
+/*# sourceMappingURL=Home.css.map */

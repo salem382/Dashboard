@@ -1,0 +1,87 @@
+.view {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.view .right-part {
+  -webkit-box-flex: 6;
+      -ms-flex: 6;
+          flex: 6;
+}
+
+.view .right-part .view-revenu {
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.view .right-part .view-revenu .info {
+  width: 37%;
+  padding: 20px;
+  -webkit-box-shadow: var(--lightShadow);
+          box-shadow: var(--lightShadow);
+}
+
+.view .right-part .view-revenu .info .top-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.view .right-part .view-revenu .info .top-part p {
+  color: #777;
+}
+
+.view .right-part .view-revenu .info .top-part div {
+  color: var(--mainColor);
+  background: rgba(100, 57, 255, 0.4);
+}
+
+.view .right-part .view-revenu .info .person-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+}
+
+.view .right-part .view-revenu .info .person-info img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.view .right-part .view-revenu .info .person-info ul {
+  padding: 0;
+  margin: 0;
+  width: 200px;
+  line-height: 2;
+}
+
+.view .right-part .view-revenu .info .person-info ul h3 {
+  margin: 0;
+}
+
+.view .right-part .view-revenu .info .person-info ul li {
+  color: #777;
+  font-size: 15px;
+}
+
+.view .right-part .view-revenu .info .person-info ul li span {
+  color: #555;
+  font-weight: 500;
+}
+/*# sourceMappingURL=View.css.map */

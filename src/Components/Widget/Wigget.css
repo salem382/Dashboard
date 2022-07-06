@@ -1,0 +1,43 @@
+.widget {
+  -webkit-box-shadow: 2px 4px 10px 4px rgba(201, 201, 201, 0.47);
+          box-shadow: 2px 4px 10px 4px rgba(201, 201, 201, 0.47);
+  border-radius: 10px;
+  width: 22.5%;
+  margin-top: 30px;
+  padding: 10px;
+  color: #666;
+}
+
+.widget .head, .widget footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.widget .head .title {
+  font-weight: 600;
+}
+
+.widget .head .head_icon {
+  color: #080;
+}
+
+.widget .price {
+  font-size: 30px;
+}
+
+.widget footer {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.widget footer P:first-of-type {
+  border-bottom: 1px solid #444;
+}
+/*# sourceMappingURL=Wigget.css.map */

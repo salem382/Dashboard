@@ -1,0 +1,31 @@
+.widget {
+    box-shadow: 2px 4px 10px 4px rgba(201, 201, 201, 0.47);
+    border-radius: 10px;
+    width: 22.5%;
+    margin-top: 30px;
+    padding: 10px;
+    color: #666;
+    .head, footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .head {
+        .title {
+            font-weight: 600;
+        }
+        .head_icon {
+            color: #080;
+        }
+    }
+    .price {
+        font-size: 30px;
+    }
+    footer {
+        font-size: 14px;
+        font-weight: 500;
+        P:first-of-type {
+            border-bottom: 1px solid #444;
+        }
+    }
+}

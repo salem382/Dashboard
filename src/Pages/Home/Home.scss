@@ -1,0 +1,17 @@
+.home {
+    display: flex;
+    .left-part {
+        flex: 6;
+        .widgets, .Revenus {
+            display: flex;
+            justify-content: space-around;
+        }
+        .Revenus {
+            margin-top: 30px;
+            .Reshart {
+                width: 60%;
+                border: 1px solid #f00;
+            }
+        }
+    }
+}

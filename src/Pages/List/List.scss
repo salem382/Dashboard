@@ -1,0 +1,23 @@
+.list {
+    display: flex;
+    .righ-part {
+        flex: 6;
+        .new_head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            p {
+                font-size: 26px;
+                font-weight: 500;
+                color: #777;
+                margin: 0;
+            }
+            .add_btn {
+                border: 1px solid #0b0;
+                border-radius: 7px;
+                padding: 7px 12px;
+            }
+        }
+    }
+}

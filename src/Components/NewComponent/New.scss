@@ -1,0 +1,72 @@
+.New-component {
+    padding: 20px;
+    .top {
+        font-size: 24px;
+        color: #666;
+        box-shadow: 4px 4px 7px rgba(201, 201, 201, 0.47);
+        padding: 10px;
+    }
+    .bottom {
+        display: flex;
+        margin-top: 70px;
+        .image-container {
+            width: 40%;
+            img {
+                width: 100px;
+                height: 100px;
+                display: block;
+                margin: auto;
+                border-radius: 50%;
+            }
+        }
+       form {
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        .send-image {
+            text-align: left;
+            position: relative;
+            width: 40%;
+            label {
+                cursor: pointer;
+            }
+            input {
+                position: absolute;
+                top: 0;
+                z-index: 9;
+                left: 0;
+                opacity: 0;
+            }
+            .icon {
+                position: absolute;
+                margin-left: 10px;
+                cursor: pointer;
+            }
+        }
+        div:not(:first-of-type) {
+            width: 40%;
+            label {
+                display: block;
+            }
+            input {
+                border: none;
+                border-bottom: 1px solid #000;
+                margin: 15px 0;
+            }
+        }
+       }
+    }
+    .send-btn {
+       width: 100px;
+       height: 40px;
+       background-color: teal;
+       color: #fff;
+       text-align: center;
+       line-height: 40px;
+       margin-left:640px;
+       margin-top: 30px;
+       cursor: pointer; 
+    }
+}

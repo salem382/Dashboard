@@ -1,0 +1,78 @@
+.Revenu {
+  width: 35%;
+  padding: 5px 15px;
+  -webkit-box-shadow: 2px 4px 10px 4px rgba(201, 201, 201, 0.47);
+          box-shadow: 2px 4px 10px 4px rgba(201, 201, 201, 0.47);
+}
+
+.Revenu .top, .Revenu footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.Revenu .top {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Revenu h3, .Revenu h4 {
+  color: #444;
+  font-weight: 400;
+}
+
+.Revenu .center {
+  text-align: center;
+}
+
+.Revenu .center .progress {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid #3e98c7;
+  border-left-color: #ccc;
+  margin: auto;
+  line-height: 90px;
+  color: #3e98c7;
+}
+
+.Revenu .center h4 {
+  font-size: 32px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.Revenu .center p {
+  font-size: 14px;
+  color: #444;
+}
+
+.Revenu footer {
+  text-align: center;
+}
+
+.Revenu footer .target div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #080;
+  margin-top: 10px;
+}
+
+.Revenu footer .target:first-of-type div {
+  color: #f00;
+}
+
+.Revenu footer .icon {
+  font-size: 16px;
+}
+/*# sourceMappingURL=Revenu.css.map */
