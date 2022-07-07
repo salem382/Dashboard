@@ -17,6 +17,8 @@ To Visit App:
 
 ## what i use 
 
-* one
-* one
-* one
+* useContext
+* useReducer
+* material ui component
+* material ui icons
+* Recharts
