@@ -1,4 +1,4 @@
-# Dashboard
+# Dashboard with React js 
 ## Installation and Setup Instructions
 
 Clone down this repository. You will need `````node````` and `````npm````` installed globally on your machine.
@@ -14,3 +14,9 @@ To Start Server:
 To Visit App:
 
 `````localhost:3000`````
+
+## what i use 
+
+* one
+* one
+* one
